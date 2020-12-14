@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación 3</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <section>
+            <form>
+                <h2>Contact Form</h2>
+                <label>First Name</label><br>
+                <input class="formulario" type="text"
+                placeholder="John"
+                minlength="6"
+                required>
+                <br>
+                <br>
+                <label>Last Name</label><br>
+                <input class="formulario" type="text"
+                placeholder="Doe" 
+                minlength="6"
+                required>
+                <br>
+                <br>
+                <label>Email</label><br>
+                <input class="formulario" type="email"
+                pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+                placeholder="you@domain.com"
+                required>
+                <br>
+                <br>
+                <label>Message</label><br>
+                <textarea placeholder="Enter your message here"></textarea><br><br>
+                <input id="button" 
+                minlength="20"
+                maxlength="140" type="submit" value="Submit">
+            </form>
+
+        </section>
+        
+    </main>
+</body>
+</html>

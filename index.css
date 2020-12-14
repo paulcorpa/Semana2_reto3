@@ -1,0 +1,25 @@
+form{
+    border: lightblue 2px solid;
+    background-color: rgb(236, 247, 253);
+    margin: 10px;
+    padding: 10px;
+    width: 330px; height: 450px;
+    font-family: Arial;
+}
+
+.formulario{
+    width: 300px; height: 20px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    resize: none;
+    
+}
+#button{
+    background: rgb(109, 174, 248);
+    border:  transparent;
+    border-radius: 5px;
+    width: 260px; height: 30px;
+    color: white;
+}
